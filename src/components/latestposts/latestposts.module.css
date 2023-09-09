@@ -1,0 +1,35 @@
+.filterdiv{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.filter{
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.btndiv{
+    margin-top: 15px;
+    margin-left: 6px;
+}
+.btn{
+    padding: 8px 18px;
+    color: #0084ff;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #0084ff;
+    background-color: #fff;
+    margin: 0px 10px 14px 2px;
+}
+#active{
+    color: #fff;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    border: none;
+}
+.btn:hover{
+    color: #fff;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    border: none;
+}

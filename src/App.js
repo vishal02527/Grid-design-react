@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Topnav from './components/topnavbar/topnav'
+import LatestPosts from './components/latestposts/latestposts';
+import Cards from './components/cards/cards';
+import Footer from './components/footer/footer';
+import maincss from './App.module.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+  return ( 
+    <div>
+      <div className={maincss.top}><Topnav /></div>
+      <div className={maincss.main}>
+        <div className={maincss.post}><LatestPosts /></div>
+        <div className={maincss.cards}><Cards /></div>
+      </div>
+      <div className={maincss.footer}><Footer /></div>
     </div>
-  );
+   );
 }
-
+ 
 export default App;

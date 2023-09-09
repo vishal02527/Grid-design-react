@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.topnav{
+    background-color: #ffffff;
+    height: 80px;
+    padding: 10px 20px;
+    display: flex;
+    box-shadow: 0px 1px 2px #ccc;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.logodiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+}
+.logo{
+    color: #0274df;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-family: sans-serif;
+}
+.stories{
+    color: #000;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: -8px;
+}
+.explorediv{
+    margin-left: 60px;
+    padding: 20px 0px;
+}
+.explore{
+    display: flex;
+    font-size: 15px;
+    color: #000;
+}
+.arrow{
+    margin-left: 5px;
+}
+.navsentence{
+    margin-left: 500px;
+    width: 20%;
+    padding: 12px 0px;
+}
+.sentence{
+    opacity: 0.6;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+.mainbtn{
+    padding: 10px 0px;
+    margin-left: 42px;
+}
+.headbtn{
+    padding: 14px 27px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    border-radius: 25px;
+    border: none;
+}

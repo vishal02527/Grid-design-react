@@ -1,0 +1,39 @@
+footer{
+    background-color: #022a4f;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    overflow: hidden;
+}
+ul p{
+    color: hsla(0,0%,100%,.5);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ul:last-of-type{
+    width: 200px;
+}
+ul span{
+    color: #fff;
+    font-size: 14px;
+}
+li{
+    color: #fff;
+    list-style-type: none;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.address span{
+    margin-left: 5px;
+}
+.owner{
+    text-align: center;
+    padding: 10px;
+    
+}
